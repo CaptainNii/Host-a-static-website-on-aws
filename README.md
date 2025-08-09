@@ -6,6 +6,16 @@
 ## Project Overview
 This project demonstrates how to host a static HTML website on AWS using a secure, scalable, and fault-tolerant architecture
 
+It covers:
+🏗 Building a multi-AZ AWS network infrastructure
+
+⚙ Deploying EC2 instances in private subnets with an Application Load Balancer
+
+🌍 Configuring Route 53 & HTTPS via AWS Certificate Manager
+
+📢 Setting up SNS notifications for Auto Scaling events
+📎 GitHub Repository: Host-a-static-website-on-aws
+
 ## 🛠 AWS Architecture
 
 1. **Virtual Private Cloud (VPC)** with public and private subnets across two Availability Zones.
