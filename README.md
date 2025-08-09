@@ -2,18 +2,6 @@
 
 # Host a Static Website on AWS
 
-## 📌 Project Overview
-
-This project demonstrates how to host a static HTML web application on AWS using a scalable, secure, and fault-tolerant architecture. The infrastructure leverages AWS services such as EC2, VPC, Load Balancer, Auto Scaling, Route 53, and more.
-
-The project includes:
-
-* A detailed reference architecture diagram
-* Deployment scripts for setting up the environment on AWS
-* Steps to host the website on EC2 instances
-
----
-
 ## 🛠 AWS Architecture
 
 1. **Virtual Private Cloud (VPC)** with public and private subnets across two Availability Zones.
@@ -52,7 +40,7 @@ systemctl enable httpd
 systemctl start httpd
 ```
 
-> **Note:** Ensure that the GitHub repository URL in the script is correct before running.
+> **Note:** GitHub repository htps://github.com/CaptainNii/host-a-static-website-on-aws.git.
 
 ---
 
