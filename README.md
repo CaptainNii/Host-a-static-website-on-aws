@@ -1,5 +1,21 @@
 ---
 
+
+📌 Project Overview
+This project demonstrates how to host a static HTML website on AWS using a secure, scalable, and fault-tolerant architecture.
+
+It covers:
+
+🏗 Building a multi-AZ AWS network infrastructure
+
+⚙ Deploying EC2 instances in private subnets with an Application Load Balancer
+
+🌍 Configuring Route 53 & HTTPS via AWS Certificate Manager
+
+📢 Setting up SNS notifications for Auto Scaling events
+
+> **Note:** GitHub repository [Host a Static Website on AWS](htps://github.com/CaptainNii/host-a-static-website-on-aws)
+
 # Host a Static Website on AWS
 
 ## 🛠 AWS Architecture
@@ -39,8 +55,6 @@ rm -rf host-a-static-website-on-aws
 systemctl enable httpd
 systemctl start httpd
 ```
-
-> **Note:** GitHub repository htps://github.com/CaptainNii/host-a-static-website-on-aws.git.
 
 ---
 
