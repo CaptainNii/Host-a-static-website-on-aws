@@ -6,14 +6,11 @@
 
 This project demonstrates how to host a static HTML web application on AWS using a scalable, secure, and fault-tolerant architecture. The infrastructure leverages AWS services such as EC2, VPC, Load Balancer, Auto Scaling, Route 53, and more.
 
-
 The project includes:
 
 * A detailed reference architecture diagram
 * Deployment scripts for setting up the environment on AWS
 * Steps to host the website on EC2 instances
-
-GitHub Repository: Host-a-static-website-on-aws
 
 ---
 
@@ -31,7 +28,7 @@ GitHub Repository: Host-a-static-website-on-aws
 10. **Application Load Balancer** with a target group to distribute web traffic evenly.
 11. **Auto Scaling Group** to automatically adjust the number of EC2 instances.
 12. **GitHub** for version control and collaboration.
-13. **AWS Certificate Manager** for securing communication (SSL/TLS for HTTPS)
+13. **AWS Certificate Manager** for securing communication.
 14. **Amazon SNS** for Auto Scaling activity alerts.
 15. **Route 53** for domain registration and DNS configuration.
 
@@ -48,9 +45,9 @@ yum update -y
 yum install -y httpd
 cd /var/www/html
 yum install -y git
-git clone https://github.com/CaptainNii/Host-a-static-website-on-aws.git
-cp -R Host-a-static-website-on-aws/. /var/www/html/
-rm -rf Host-a-static-website-on-aws
+git clone https://github.com/aosnotes77/host-a-static-website-on-aws.git
+cp -R host-a-static-website-on-aws/. /var/www/html/
+rm -rf host-a-static-website-on-aws
 systemctl enable httpd
 systemctl start httpd
 ```
@@ -71,6 +68,14 @@ systemctl start httpd
 
 ---
 
+## 🌐 How to Access the Website
+
+1. Deploy the infrastructure using AWS Management Console, CloudFormation, or Terraform.
+2. Run the setup script on EC2 instances.
+3. Access the website via the **Load Balancer DNS name** or your **Route 53 domain**.
+
+---
+
 ## 📧 Notifications
 
 SNS is configured to send alerts about Auto Scaling activities. Ensure that your subscription is active to receive notifications.
@@ -83,5 +88,4 @@ SNS is configured to send alerts about Auto Scaling activities. Ensure that your
 * Web servers are placed in private subnets, accessible only through the load balancer.
 
 ---
-
 
