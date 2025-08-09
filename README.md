@@ -3,6 +3,9 @@
 
 # Host a Static Website on AWS
 
+## Project Overview
+This project demonstrates how to host a static HTML website on AWS using a secure, scalable, and fault-tolerant architecture
+
 ## 🛠 AWS Architecture
 
 1. **Virtual Private Cloud (VPC)** with public and private subnets across two Availability Zones.
