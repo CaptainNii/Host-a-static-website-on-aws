@@ -68,14 +68,6 @@ systemctl start httpd
 
 ---
 
-## 🌐 How to Access the Website
-
-1. Deploy the infrastructure using AWS Management Console, CloudFormation, or Terraform.
-2. Run the setup script on EC2 instances.
-3. Access the website via the **Load Balancer DNS name** or your **Route 53 domain**.
-
----
-
 ## 📧 Notifications
 
 SNS is configured to send alerts about Auto Scaling activities. Ensure that your subscription is active to receive notifications.
