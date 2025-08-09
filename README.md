@@ -54,6 +54,9 @@ systemctl enable httpd
 systemctl start httpd
 ```
 
+## Repository Link
+The project is available on GitHub: [Host a Static Website on AWS](https://github.com/CaptainNii/Host-a-static-website-on-aws)
+
 ---
 
 ## 📂 Repository Structure
@@ -81,3 +84,5 @@ SNS is configured to send alerts about Auto Scaling activities. Ensure that your
 
 ---
 
+## Conclusion
+This setup ensure a scalable, secure, and fault-tolerant environment for hosting a static web application, leveraging AWS's rebust infrastructure.
