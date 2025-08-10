@@ -49,9 +49,9 @@ yum update -y
 yum install -y httpd
 cd /var/www/html
 yum install -y git
-git clone https://github.com/aosnotes77/host-a-static-website-on-aws.git
-cp -R host-a-static-website-on-aws/. /var/www/html/
-rm -rf host-a-static-website-on-aws
+git clone https://github.com/CaptainNii/Host-a-static-website-on-aws.git
+cp -R Host-a-static-website-on-aws/. /var/www/html/
+rm -rf Host-a-static-website-on-aws
 systemctl enable httpd
 systemctl start httpd
 ```
